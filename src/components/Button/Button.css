@@ -1,0 +1,21 @@
+.btn {
+  text-transform: uppercase;
+  padding: 13px 26px;
+  border-radius: 5px;
+}
+.btn.fill {
+  display: inline-block;
+  background-color: #d5621d;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+}
+.btn.unfill {
+  border: 2px solid #d5621d;
+  font-family: "Stolzl", monospace;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+}/*# sourceMappingURL=Button.css.map */

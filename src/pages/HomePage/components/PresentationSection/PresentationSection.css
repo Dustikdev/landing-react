@@ -1,0 +1,71 @@
+#presentation {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 120px;
+}
+#presentation .tabs {
+  display: flex;
+}
+#presentation .tab-images {
+  display: flex;
+}
+#presentation .images {
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(213, 98, 29, 0.1019607843);
+  gap: 26px;
+  grid-template-columns: 1fr 1fr;
+  padding: 39px 35px 37px 35px;
+}
+#presentation .images.visible-images {
+  display: grid;
+}
+#presentation .images.invisible-images {
+  display: none;
+}
+#presentation .tab {
+  flex: 1;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  border-radius: 5px 5px 0px 0px;
+  padding: 12px 10px 7px 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+#presentation .tab.pressed-tab {
+  background-color: rgba(213, 98, 29, 0.1019607843);
+}
+#presentation .tab.unpressed-tab {
+  background-color: rgba(213, 98, 29, 0.0509803922);
+}
+#presentation .left-side {
+  position: relative;
+}
+#presentation .left-side .letter {
+  position: absolute;
+  left: 60px;
+  bottom: 45px;
+}
+#presentation .left-side .div-since {
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  width: 154px;
+  padding: 10px 20px 7px 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#presentation .left-side span {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.05em;
+}/*# sourceMappingURL=PresentationSection.css.map */

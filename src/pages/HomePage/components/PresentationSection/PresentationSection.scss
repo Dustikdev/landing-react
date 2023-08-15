@@ -1,0 +1,78 @@
+﻿#presentation {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 120px;
+
+  .tabs {
+    display: flex;
+  }
+  .tab-images {
+    display: flex;
+  }
+  .images {
+    justify-content: center;
+    align-items: center;
+    background-color: #d5621d1a;
+    gap: 26px;
+    grid-template-columns: 1fr 1fr;
+    padding: 39px 35px 37px 35px;
+
+    &.visible-images {
+      display: grid;
+    }
+    &.invisible-images {
+      display: none;
+    }
+  }
+  .tab {
+    flex: 1;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    border-radius: 5px 5px 0px 0px;
+    padding: 12px 10px 7px 10px;
+    text-transform: uppercase;
+    text-align: center;
+
+    &.pressed-tab {
+      background-color: #d5621d1a;
+    }
+    &.unpressed-tab {
+      background-color: #d5621d0d;
+    }
+  }
+
+  .left-side {
+    position: relative;
+
+    .letter {
+      position: absolute;
+      left: 60px;
+      bottom: 45px;
+    }
+
+    .div-since {
+      background-color: white;
+      color: black;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 27px;
+      width: 154px;
+      padding: 10px 20px 7px 20px;
+      border-radius: 5px;
+      margin-bottom: 30px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    span {
+      text-transform: uppercase;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 60px;
+      letter-spacing: 0.05em;
+    }
+  }
+}

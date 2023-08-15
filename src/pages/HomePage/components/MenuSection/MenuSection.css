@@ -1,0 +1,28 @@
+#menu .section-footer {
+  text-align: center;
+}
+#menu .slider-menu-container {
+  position: relative;
+  overflow: hidden;
+}
+#menu .menu-container {
+  position: relative;
+  margin-bottom: 96px;
+  z-index: -1;
+  left: 0;
+  transition: all ease 1s;
+}
+#menu .slider-left {
+  left: 1%;
+  top: 40%;
+}
+#menu .slider-right {
+  left: 95%;
+  top: 40%;
+}
+#menu .menu-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 56px 0;
+  padding-left: 110px;
+}/*# sourceMappingURL=MenuSection.css.map */
