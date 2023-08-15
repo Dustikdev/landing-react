@@ -1,4 +1,4 @@
-﻿@import '../../variables';
+﻿@import "../../variables.scss";
 
 header {
   margin: 0 auto;
@@ -9,7 +9,6 @@ header {
   justify-content: space-between;
   gap: 20px;
   overflow: hidden;
-
   .header-img {
     width: 157px;
   }

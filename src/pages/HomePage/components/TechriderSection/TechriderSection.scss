@@ -1,1 +1,44 @@
-﻿
+﻿@import "../../../../variables.scss";
+
+.rider-content {
+  display: flex;
+  justify-content: center;
+  gap: 134px;
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .right-side {
+    letter-spacing: 0.05em;
+    h3 {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 48px;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 50px;
+    }
+    .right-grid {
+      display: grid;
+      gap: 25px 24px;
+      justify-content: center;
+      align-items: center;
+      grid-template-columns: 1fr 1fr;
+    }
+    span {
+      margin-top: 5px;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 21px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .icons {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+    }
+  }
+}

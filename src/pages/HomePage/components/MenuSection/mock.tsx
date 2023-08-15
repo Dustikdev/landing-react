@@ -8,11 +8,11 @@ import dish7 from "./assets/dish7.png";
 import dish8 from "./assets/dish8.png";
 
 interface MockObject {
-    imgSource: string;
-    dishName: string;
-    price: string;
-    weight: string;
-    description: string;
+  imgSource: string;
+  dishName: string;
+  price: string;
+  weight: string;
+  description: string;
 }
 
 const mock: MockObject[] = [

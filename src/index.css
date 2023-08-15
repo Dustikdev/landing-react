@@ -41,18 +41,6 @@ a {
   justify-content: center;
 }
 
-.icon {
-  position: relative;
-  width: 40px;
-  height: 40px;
-  padding: 10px;
-  border-radius: 5px;
-  border: 2px solid #d5621d;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .dividing-line {
   background-color: white;
   height: 1px;

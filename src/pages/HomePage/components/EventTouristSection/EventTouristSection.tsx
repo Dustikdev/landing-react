@@ -26,7 +26,7 @@ export const EventTouristSection = () => {
         Facilisis donec gravida pretium diam semper at id eleifend.
       `}
       />
-      <img src={eventImage} alt='eventImage'/>
+      <img src={eventImage} alt="eventImage" />
       <SideItem
         topTitle={"Top “Manhattan” tourist"}
         h2Title={"туристы"}

@@ -1,1 +1,42 @@
-/*# sourceMappingURL=TechriderSection.css.map */
+.rider-content {
+  display: flex;
+  justify-content: center;
+  gap: 134px;
+}
+.rider-content .left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.rider-content .right-side {
+  letter-spacing: 0.05em;
+}
+.rider-content .right-side h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.rider-content .right-side .right-grid {
+  display: grid;
+  gap: 25px 24px;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+.rider-content .right-side span {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.rider-content .right-side .icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}/*# sourceMappingURL=TechriderSection.css.map */
